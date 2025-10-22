@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    color: #f0f0f0;
+}
+.logo-container{
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+footer{
+    justify-content: center;
+    display:flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+body{
+  background-color: #121212;
+}
+
+#theme-toggle {
+  border-color: #f0f0f0;
+  top:20px;
+  right:20px;
+  position: fixed;
+  background: none;
+  border: 1px;
+  border-radius: 100%;
+  border-style: hidden;
+  font-size: 20px;
+  padding: 0px;
+  z-index: 1000;
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+#theme-toggle:hover {
+  background: #f0f0f0;
+  transform: scale(1.1);
+}
+.user-info{
+  display: flex;
+  top:20px;
+  left:20px;
+  position: fixed;
+  z-index: 1000;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;     
+}
+.user-info:hover {
+   transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(234, 180, 4, 0.3);
+}
+.layout{
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(3, 1, 1), #27272a, rgb(15, 11, 11)) 
+}
